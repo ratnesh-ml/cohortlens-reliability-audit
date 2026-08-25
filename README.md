@@ -4,7 +4,7 @@ CohortLens is an original, local-first reliability audit for an **illustrative s
 
 The built-in records are a small, attributed reference slice from UCI’s Wine Quality dataset. The app uses an intentionally simple score based on three published physicochemical columns so every calculation is inspectable. It is not a trained classifier or a real quality decision tool.
 
-**Live demo:** Deployment verification in progress.
+**Live demo:** [cohortlens-reliability-audit-ratnezhsingh-6317.vercel.app](https://cohortlens-reliability-audit-ratnezhsingh-6317.vercel.app)
 
 ## What the workspace includes
 
