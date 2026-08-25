@@ -1,0 +1,24 @@
+name: Focused improvement proposal
+description: Propose a small, inspectable improvement that preserves CohortLens’s evaluation and data boundaries.
+title: "proposal: "
+body:
+  - type: textarea
+    id: limitation
+    attributes:
+      label: What is the current limitation?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change and validation approach
+      description: Explain the metric, interface, test, or documentation behavior you would check.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Scope check
+      options:
+        - label: This proposal does not infer sensitive traits, use high-impact people decisions, certify fairness, or add unauthorized data.
+          required: true

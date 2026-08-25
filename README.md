@@ -33,6 +33,10 @@ The UCI Wine Quality dataset contains physicochemical inputs and a sensory quali
 
 > CohortLens is a teaching and inspection interface. It does not train a model, infer sensitive traits, certify fairness, establish causality, or authorize any decision. Local imports are parsed in the browser and are not uploaded by this static application.
 
+## Contributing
+
+Small, inspectable improvements are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md), run `pnpm check && pnpm test && pnpm build`, and do not include personal, high-impact, proprietary, or unlicensed data in issues, fixtures, or pull requests.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
